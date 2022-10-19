@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+/* my part */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 32px;
+}
+
+.sub-content{
+    display: flex;
+    gap: 32px;
+    justify-content: space-evenly;
+    padding: 0px 32px;
+}
+.image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
